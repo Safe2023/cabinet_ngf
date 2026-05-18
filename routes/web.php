@@ -67,7 +67,11 @@ Route::get('actualite',[ActualiteController::class, 'index'])->name('actualite')
 Route::get('/update_actualite/{id}', [ActualiteController::class, 'edit'])->name('edit');
 Route::put('/update_actualite/{id}', [ActualiteController::class, 'update'])->name('update_actualite');
 Route::get('/table_actualite', [ActualiteController::class, 'table_actualite'])->name('table_actualite');
+<<<<<<< HEAD
 Route::delete('/destroye/{id}', [ActualiteController::class, 'destroye'])->name('destroye');
+=======
+Route::delete('/destroy/{id}', [ActualiteController::class, 'destroy'])->name('destroy');
+>>>>>>> d75851da67972809a7dfdb66abdaee1966f90223
 
 Route::get('ajout_realisation',[RealisationController::class, 'creat']);
 Route::post('ajout_realisation',[RealisationController::class, 'stor'])->name('ajout_realisation');
@@ -75,8 +79,13 @@ Route::get('realisation',[RealisationController::class, 'realisation'])->name('r
 Route::get('/update_realisation/{id}', [RealisationController::class, 'edite'])->name('edite');
 Route::put('/update_realisation/{id}', [RealisationController::class, 'updates'])->name('update_realisation');
 Route::get('/table_realisation', [RealisationController::class, 'table_realisation'])->name('table_realisation');
+<<<<<<< HEAD
 Route::get('detail/{id}',[RealisationController::class, 'detail'])->name('detail');
 Route::delete('/destroy/{id}', [RealisationController::class, 'destroy']) ->name('destroy');
+=======
+Route::delete('/destroye/{id}', [RealisationController::class, 'destroye'])->name('destroye');
+Route::get('detail/{id}',[RealisationController::class, 'detail'])->name('detail');
+>>>>>>> d75851da67972809a7dfdb66abdaee1966f90223
 
 
 Route::post('contact', [ServiceController::class, 'envoie_mail'])->name('envoie_mail');

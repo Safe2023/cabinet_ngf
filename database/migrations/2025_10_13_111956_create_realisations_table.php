@@ -9,6 +9,7 @@ return new class extends Migration
     /**
      * Run the migrations.
      */
+<<<<<<< HEAD
     
 public function up(): void
 {
@@ -23,6 +24,25 @@ public function up(): void
         $table->timestamps();
     });
 }
+=======
+    public function up(): void
+    {
+        Schema::create('realisations', function (Blueprint $table) {
+            $table->id();
+            $table->string('titre');
+            $table->longText('description');
+            $table->longText('contexte')->nullable();
+            $table->longText('intervention')->nullable();
+            $table->longText('resultat')->nullable();
+            $table->longText('message')->nullable();
+            $table->json('images')->nullable(); // 👈 colonne JSON pour stocker les chemins d’images
+
+
+            $table->timestamps();
+        });
+    }
+
+>>>>>>> d75851da67972809a7dfdb66abdaee1966f90223
     /**
      * Reverse the migrations.
      */

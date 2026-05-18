@@ -56,6 +56,7 @@
         transform: translateY(-2px);
         box-shadow: 0 4px 10px rgba(0, 92, 115, 0.3);
     }
+<<<<<<< HEAD
 
     /*  //////////////////////////////////////////////////////// */
     .project-card {
@@ -91,6 +92,43 @@
     .project-card:hover .card-title {
         color: #FFD700;
     }
+=======
+   /*  //////////////////////////////////////////////////////// */
+    .project-card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    background-color: #fff;
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 92, 115, 0.25);
+    border-top: 4px solid transparent;
+    border-image: linear-gradient(90deg, #FFD700, #005C73) 1;
+}
+
+/* Animation sur l’image au survol */
+.project-card img {
+    transition: transform 0.5s ease;
+}
+
+.project-card:hover img {
+    transform: scale(1.05);
+}
+
+/* Texte & bouton harmonisés */
+.card-title {
+    transition: color 0.3s ease;
+}
+
+.project-card:hover .card-title {
+    color: #FFD700;
+}
+
+>>>>>>> d75851da67972809a7dfdb66abdaee1966f90223
 </style>
 
 <div class="container-fluid page-header py-5 wow fadeIn position-relative"
@@ -129,6 +167,7 @@
             à transformer les ambitions de nos clients en succès concrets et durables.
         </p>
     </div>
+<<<<<<< HEAD
     <div class="row">
         @foreach($projets as $projet)
         <div class="col-md-4 mb-5">
@@ -163,6 +202,42 @@
         </div>
         @endforeach
     </div>
+=======
+   <div class="row">
+    @foreach($projets as $projet)
+    <div class="col-md-4 mb-5">
+        <div class="card project-card h-100">
+            @if($projet->images->isNotEmpty())
+            <img src="{{ asset('storage/' . $projet->images->first()->image) }}"
+                class="card-img-top img-fluid"
+                alt="{{ $projet->titre }}"
+                style="object-fit: cover; height: 250px;">
+            @else
+            <img src="{{ asset('img/default.jpg') }}"
+                class="card-img-top img-fluid"
+                alt="Image par défaut"
+                style="object-fit: cover; height: 250px;">
+            @endif
+
+            <div class="card-body d-flex flex-column">
+                <h5 class="card-title fw-bold"
+                    style="color: #005C73; font-size: 1.1rem;">
+                    {{ $projet->titre }}
+                </h5>
+
+                <p class="card-text text-truncate">
+                    {{ Str::limit($projet->description, 100) }}
+                </p>
+
+                <a href="{{ route('detail', $projet->id) }}" class="btn-gradient-outline mt-auto">
+                    Voir détails
+                </a>
+            </div>
+        </div>
+    </div>
+    @endforeach
+</div>
+>>>>>>> d75851da67972809a7dfdb66abdaee1966f90223
 
     <div class="container d-flex justify-content-center mt-4">
         @if ($projets->hasPages())
@@ -275,6 +350,7 @@
 
 <!-- Call to Action -->
 <section class="text-center py-5" style="background: linear-gradient(90deg, #FFD700, #005C73); color: #fff;">
+<<<<<<< HEAD
     <div class="container">
         <h2 class="fw-bold mb-3" style="font-size: 2.2rem;">Un projet en tête ?</h2>
         <p class="mb-4" style="font-size: 1.1rem; opacity: 0.95;">
@@ -286,6 +362,19 @@
             Nous contacter
         </a>
     </div>
+=======
+  <div class="container">
+    <h2 class="fw-bold mb-3" style="font-size: 2.2rem;">Un projet en tête ?</h2>
+    <p class="mb-4" style="font-size: 1.1rem; opacity: 0.95;">
+      Contactez-nous dès aujourd’hui et construisons ensemble votre réussite.
+    </p>
+    <a href="contact.html" 
+       class="btn px-4 py-2 rounded-pill fw-semibold"
+       style="background-color: #fff; color: #005C73; border: none; transition: all 0.3s ease;">
+       Nous contacter
+    </a>
+  </div>
+>>>>>>> d75851da67972809a7dfdb66abdaee1966f90223
 </section>
 
 

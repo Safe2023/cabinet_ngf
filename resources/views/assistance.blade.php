@@ -311,7 +311,11 @@
 <!-- Why NGF Section -->
 <section class="why-ngf-section">
     <div class="container">
+<<<<<<< HEAD
         <h2 class="custom-section-title">Pourquoi Choisir NGF pour Votre Assistance technique ?</h2>
+=======
+        <h2 class="custom-section-title">Pourquoi Choisir NGF pour Votre Assistance Internationale ?</h2>
+>>>>>>> d75851da67972809a7dfdb66abdaee1966f90223
         <div class="row">
             <div class="col-lg-6">
                 <div class="feature-item">

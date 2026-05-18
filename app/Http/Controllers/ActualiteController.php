@@ -98,6 +98,7 @@ class ActualiteController extends Controller
     /**
      * Remove the specified resource from storage.
      */
+<<<<<<< HEAD
    public function destroye($id)
 {
     $actualite = Actualite::findOrFail($id);
@@ -117,4 +118,18 @@ public function table_actualite()
     $actualite = Actualite::latest()->get();
     return view('table_actualite', compact('actualite'));
 }
+=======
+    public function destroy(string $id)
+    {
+         $actualite = Actualite::findOrFail($id);
+
+        $actualite->delete();
+        return redirect()->route('table_actualite')->with('success', 'Actualité supprimée.');
+    }
+     public function table_actualite()
+    {
+         $actualite = Actualite::all(); 
+        return view('table_actualite', ['actualite' => $actualite]);
+    }
+>>>>>>> d75851da67972809a7dfdb66abdaee1966f90223
 }

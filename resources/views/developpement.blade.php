@@ -381,7 +381,11 @@
                 </div>
                 <div class="col-md-3">
                     <div class="impact-item">
+<<<<<<< HEAD
                         <span class="impact-number">100%</span>
+=======
+                        <span class="impact-number">85%</span>
+>>>>>>> d75851da67972809a7dfdb66abdaee1966f90223
                         <div class="impact-label">Taux de Satisfaction</div>
                     </div>
                 </div>

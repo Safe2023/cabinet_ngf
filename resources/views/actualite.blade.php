@@ -129,7 +129,11 @@
         <div class="card shadow-lg border-0 mx-auto text-center p-5 text-white" style="max-width: 750px; border-radius: 25px; background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px);">
             <div class="card-body">
                 <h3 class="fw-bold mb-3">
+<<<<<<< HEAD
                      Restez Connectés à Nos Dernières Actualités !
+=======
+                    🌟 Restez Connectés à Nos Dernières Actualités !
+>>>>>>> d75851da67972809a7dfdb66abdaee1966f90223
                 </h3>
                 <p class="lead mb-4">
                     Abonnez-vous dès maintenant pour recevoir en exclusivité nos projets, événements et inspirations.
@@ -145,7 +149,11 @@
                 </form>
                 <div class="mt-4">
                     <a href="#contact" class="btn btn-outline-light btn-lg px-4">
+<<<<<<< HEAD
                         <i class="/contact"></i> Nous Contacter
+=======
+                        <i class="fas fa-envelope me-2"></i> Nous Contacter
+>>>>>>> d75851da67972809a7dfdb66abdaee1966f90223
                     </a>
                 </div>
             </div>

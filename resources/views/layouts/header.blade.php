@@ -128,7 +128,11 @@
                     <i class="bi bi-telephone-inbound fs-2" style="color:#FFD700"></i>
                     <div class="ms-3">
                         <h5 class=" mb-0" style="color:#316d8c;">Téléphone</h5>
+<<<<<<< HEAD
                         <span style="color:#316d8c;">(+229) 0166 653 766 / 0195 698 878</span>
+=======
+                        <span style="color:#316d8c;">(+229) 0195 698 878 / 0166 653 766</span>
+>>>>>>> d75851da67972809a7dfdb66abdaee1966f90223
                     </div>
                 </div>
                 <img src="{{asset('img/logo.png')}}" class="logo-img" alt="Logo 1">
@@ -166,6 +170,7 @@
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                             <div class="dropdown-menu bg-light m-0">
+<<<<<<< HEAD
                                 <a href="/assistance" class="dropdown-item">Assistance technique internationale</a>
                                 <a href="/developpement" class="dropdown-item">Développement local</a>
                                 <a href="/changement" class="dropdown-item">Changement climatique</a>
@@ -180,13 +185,35 @@
                         <a href="/realisation" class="nav-item nav-link">Nos realisations</a>
                         <a href="/actualite" class="nav-item nav-link">Actualités</a>
                         <a href="/contact" class="nav-item nav-link">Contact</a>
+=======
+                                <a href="assistance" class="dropdown-item">Assistance technique internationale</a>
+                                <a href="developpement" class="dropdown-item">Développement local</a>
+                                <a href="changement" class="dropdown-item">Changement climatique</a>
+                                <a href="hygiene" class="dropdown-item">Hygiène, assainissement & environnement</a>
+                                <a href="travaux" class="dropdown-item">Travaux publics</a>
+                                <a href="hydraulique" class="dropdown-item">Hydraulique rurale</a>
+                                <a href="electrification" class="dropdown-item">Électrification urbaine et rurale</a>
+                                <a href="agriculture" class="dropdown-item">Agriculture & pastoralisme</a>
+                            </div>
+                        </div>
+                        <a href="consultation" class="nav-item nav-link">Consultations</a>
+                        <a href="realisation" class="nav-item nav-link">Nos realisations</a>
+                        <a href="actualite" class="nav-item nav-link">Actualités</a>
+                        <a href="contact" class="nav-item nav-link">Contact</a>
+>>>>>>> d75851da67972809a7dfdb66abdaee1966f90223
 
 
                     </div>
                     <div class="ms-auto d-none d-lg-flex">
+<<<<<<< HEAD
                         <a class="social-icon me-2" target="_blank" href="https://www.facebook.com/share/17Ve1yeWfC/"><i class="fab fa-facebook-f"></i></a>
                         <a class="social-icon me-2" target="_blank" href="https://www.linkedin.com/in/ngf-expertise-consulting-713944264?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon me-2" href=""><i class="fab fa-twitter"></i></a>
+=======
+                        <a class="social-icon me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-icon me-2" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="social-icon me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+>>>>>>> d75851da67972809a7dfdb66abdaee1966f90223
                         <a class="social-icon me-2" href=""><i class="fab fa-youtube"></i></a>
                     </div>
                 </div>
@@ -217,9 +244,15 @@
                     <p style="color: #005C73;"><i class="fa fa-phone-alt me-2"></i>(+229) 0120 606 034 / 0166 653 766</p>
                     <p style="color: #005C73;"><i class="fa fa-envelope me-2"></i>ngfexpertconsult@gmail.com</p>
                     <div class="d-flex mt-4">
+<<<<<<< HEAD
                         <a class="social-icon me-2" target="_blank" href="https://www.facebook.com/share/17Ve1yeWfC/"><i class="fab fa-facebook-f"></i></a>
                         <a class="social-icon me-2" target="_blank" href="https://www.linkedin.com/in/ngf-expertise-consulting-713944264?utm_source=share_via&utm_content=profile&utm_medium=member_android"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon me-2" href="#"><i class="fab fa-twitter"></i></a>
+=======
+                        <a class="social-icon me-2" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="social-icon me-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a class="social-icon me-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+>>>>>>> d75851da67972809a7dfdb66abdaee1966f90223
                         <a class="social-icon me-2" href="#"><i class="fab fa-instagram"></i></a>
                     </div>
 
@@ -261,6 +294,7 @@
                     <div class="row g-5">
                         <div class="col-sm-6">
                             <h4 class="mb-4" style="color: #F2C300;">Liens utiles</h4>
+<<<<<<< HEAD
                             <a class="btn btn-link" href="/apropos">À propos</a>
                             <a class="btn btn-link" href="/services">Nos services</a>
                             <a class="btn btn-link" href="/projects">Nos projets</a>
@@ -274,6 +308,21 @@
                             <a class="btn btn-link" href="/hydraulique">Hydraulique</a>
                             <a class="btn btn-link" href="/travaux">Travaux publics</a>
                             <a class="btn btn-link" href="/electrification">Énergie</a>
+=======
+                            <a class="btn btn-link" href="apropos">À propos</a>
+                            <a class="btn btn-link" href="services">Nos services</a>
+                            <a class="btn btn-link" href="projects">Nos projets</a>
+                            <a class="btn btn-link" href="contact">Contact</a>
+                            <a class="btn btn-link" href="consultation">Consultation</a>
+                        </div>
+                        <div class="col-sm-6">
+                            <h4 class="mb-4" style="color: #F2C300;">Nos expertises</h4>
+                            <a class="btn btn-link" href="#">Environnement</a>
+                            <a class="btn btn-link" href="#">Agriculture</a>
+                            <a class="btn btn-link" href="#">Hydraulique</a>
+                            <a class="btn btn-link" href="#">Travaux publics</a>
+                            <a class="btn btn-link" href="#">Énergie</a>
+>>>>>>> d75851da67972809a7dfdb66abdaee1966f90223
                         </div>
 
                         <!-- Newsletter -->

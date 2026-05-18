@@ -58,7 +58,11 @@
                                     NGF Expertise Consulting accompagne les collectivités, entreprises et organisations
                                     dans la mise en œuvre de projets innovants et responsables.
                                 </p>
+<<<<<<< HEAD
                                 <a href="/apropos" class="btn btn-primary py-3 px-5 animated slideInRight nous">En savoir plus</a>
+=======
+                                <a href="#services" class="btn btn-primary py-3 px-5 animated slideInRight nous">Découvrir nos services</a>
+>>>>>>> d75851da67972809a7dfdb66abdaee1966f90223
                             </div>
                         </div>
                     </div>
@@ -79,7 +83,11 @@
                                     Environnement, agriculture, hydraulique, énergie, BTP :
                                     nos équipes apportent des solutions adaptées aux besoins locaux et régionaux.
                                 </p>
+<<<<<<< HEAD
                                 <a href="/contact" class="btn btn-primary py-3 px-5 animated slideInLeft nous">Contactez-nous</a>
+=======
+                                <a href="#contact" class="btn btn-primary py-3 px-5 animated slideInLeft nous">Contactez-nous</a>
+>>>>>>> d75851da67972809a7dfdb66abdaee1966f90223
                             </div>
                         </div>
                     </div>
@@ -393,14 +401,22 @@
 </section> -->
 
 <!-- Section Équipe -->
+<<<<<<< HEAD
 <!-- <section class="py-5 bg-light">
+=======
+<section class="py-5 bg-light">
+>>>>>>> d75851da67972809a7dfdb66abdaee1966f90223
   <div class="container">
     <h2 class="text-center mb-5">Notre Équipe</h2>
 
     <div id="teamCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
       <div class="carousel-inner">
 
+<<<<<<< HEAD
       
+=======
+        <!-- Slide 1 -->
+>>>>>>> d75851da67972809a7dfdb66abdaee1966f90223
         <div class="carousel-item active">
           <div class="row g-3">
             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
@@ -442,7 +458,11 @@
           </div>
         </div>
 
+<<<<<<< HEAD
      
+=======
+        <!-- Slide 2 -->
+>>>>>>> d75851da67972809a7dfdb66abdaee1966f90223
         <div class="carousel-item">
           <div class="row g-3">
             <div class="col-12 col-sm-6 col-md-4 col-lg-3">
@@ -486,7 +506,11 @@
 
       </div>
 
+<<<<<<< HEAD
     
+=======
+      <!-- Contrôles -->
+>>>>>>> d75851da67972809a7dfdb66abdaee1966f90223
       <button class="carousel-control-prev" type="button" data-bs-target="#teamCarousel" data-bs-slide="prev">
         <span class="carousel-control-prev-icon"></span>
       </button>
@@ -495,7 +519,11 @@
       </button>
     </div>
   </div>
+<<<<<<< HEAD
 </section> -->
+=======
+</section>
+>>>>>>> d75851da67972809a7dfdb66abdaee1966f90223
 
 <style>
 .team-img {
@@ -524,6 +552,7 @@
 
         <div class="partners-carousel-container">
             <div class="partners-carousel-track">
+<<<<<<< HEAD
                 <div class="partner-logo-item"><img src="img/pat1.png" alt="Partner 1"></div>
                 <div class="partner-logo-item"><img src="img/pat2.jpg" alt="Partner 1"></div>
                 <div class="partner-logo-item"><img src="img/pat3.jpg" alt="Partner 2"></div>
@@ -555,6 +584,19 @@
                 <div class="partner-logo-item"><img src="img/pat13.png" alt="Partner 5"></div>
                 <div class="partner-logo-item"><img src="img/pat14.png" alt="Partner 5"></div>
                 <div class="partner-logo-item"><img src="img/pat15.png" alt="Partner 5"></div>
+=======
+                <div class="partner-logo-item"><img src="img/part1.png" alt="Partner 1"></div>
+                <div class="partner-logo-item"><img src="img/part2.png" alt="Partner 2"></div>
+                <div class="partner-logo-item"><img src="img/part3.jpg" alt="Partner 3"></div>
+                <div class="partner-logo-item"><img src="img/part4.png" alt="Partner 4"></div>
+                <div class="partner-logo-item"><img src="img/part5.png" alt="Partner 5"></div>
+                <!-- Duplicated set for seamless loop -->
+                <div class="partner-logo-item"><img src="img/part1.png" alt="Partner 1"></div>
+                <div class="partner-logo-item"><img src="img/part2.png" alt="Partner 2"></div>
+                <div class="partner-logo-item"><img src="img/part3.jpg" alt="Partner 3"></div>
+                <div class="partner-logo-item"><img src="img/part4.png" alt="Partner 4"></div>
+                <div class="partner-logo-item"><img src="img/part5.png" alt="Partner 5"></div>
+>>>>>>> d75851da67972809a7dfdb66abdaee1966f90223
             </div>
         </div>
 </section>

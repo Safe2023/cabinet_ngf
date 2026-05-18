@@ -199,7 +199,11 @@
     <!-- END layout-wrapper -->
 
     <!-- Right Sidebar -->
+<<<<<<< HEAD
   <!--   <div class="right-bar">
+=======
+    <div class="right-bar">
+>>>>>>> d75851da67972809a7dfdb66abdaee1966f90223
         <div data-simplebar class="h-100">
             <div class="rightbar-title d-flex align-items-center px-3 py-4">
 
@@ -210,6 +214,10 @@
                 </a>
             </div>
 
+<<<<<<< HEAD
+=======
+            <!-- Settings -->
+>>>>>>> d75851da67972809a7dfdb66abdaee1966f90223
             <hr class="mt-0" />
             <h6 class="text-center mb-0">Choisir un Mode</h6>
 
@@ -232,8 +240,13 @@
                 </div>
             </div>
 
+<<<<<<< HEAD
         </div> 
     </div> -->
+=======
+        </div> <!-- end slimscroll-menu-->
+    </div>
+>>>>>>> d75851da67972809a7dfdb66abdaee1966f90223
     <!-- /Right-bar -->
 
     <!-- Right bar overlay-->

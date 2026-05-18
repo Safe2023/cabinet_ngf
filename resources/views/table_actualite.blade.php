@@ -65,17 +65,23 @@
                         <tr>
                             <td>{{ $index + 1 }}</td>
                             <td style="width: 100px;">
+<<<<<<< HEAD
     <img src="{{ $actu->image_actu ? asset('storage/' . $actu->image_actu) : asset('images/default.png') }}"
          alt="Image"
          class="img-thumbnail"
          style="width: 80px; height: 80px; object-fit: cover;">
 </td>
+=======
+                                <img src="{{ asset('storage/' . $actu->image_actu) }}" alt="Image" class="img-thumbnail" style="width: 80px; height: 80px; object-fit: cover;">
+                            </td>
+>>>>>>> d75851da67972809a7dfdb66abdaee1966f90223
                             <td>{{ $actu->titre_actu }}</td>
                             <td>{{ \Carbon\Carbon::parse($actu->date_actu)->format('d M Y') }}</td>
                             <td>{{ Str::limit($actu->description_actu, 50) }}</td>
                             <td><a href="{{ $actu->lien_actu }}" target="_blank">Voir</a></td>
                             <td class="d-flex gap-2">
                                 <a href="{{ route('edit', $actu->id) }}" class="btn btn-sm btn-warning"><i class="bi bi-pencil-square"></i></a>
+<<<<<<< HEAD
                                 <form action="{{ route('destroye', $actu->id) }}"method="POST" onsubmit="return confirm('Supprimer ?')">
 
                              @csrf
@@ -86,6 +92,13 @@
                              </button>
 
                             </form>
+=======
+                                <form action="{{ route('destroy', $actu->id) }}" method="POST" class="d-inline" onsubmit="return confirm('Supprimer ?')">
+                                    @csrf
+                                    @method('DELETE')
+                                    <button class="btn btn-sm btn-danger"><i class="bi bi-trash"></i></button>
+                                </form>
+>>>>>>> d75851da67972809a7dfdb66abdaee1966f90223
                             </td>
                         </tr>
                         @endforeach
